@@ -10,11 +10,13 @@
 
 /* The array.pop() method removes the last element from an array and returns that element*/
 
-/*1. Mr. Bonner (aka the Red Rocket, the Red Mamba) doesn't belong in this class of Hall Of Famers. Remove this imposter immediately and assign it to a new variable named `notHof` Console.log this new variable as well as the original list.*/ 
+/*1. Mr. Bonner (aka the Red Rocket, the Red Mamba) doesn't belong in this class of Hall Of Famers. Remove this imposter immediately and assign it to a new variable named `notHof` Console.log this new variable as well as the original list.*/
 
 var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
 
+hof.pop("Bonner");
 
+console.log('hof ', hof);
 
 /* The array.push() adds one or more element to the end of an array and returns the new length of the array*/
 
@@ -22,7 +24,9 @@ var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
 
 var shoppingList = ["cool ranch doritos", "kings hawaiian sweet bread", "peanut butter oreos", "fruit loops cereal"];
 
+shoppingList.push("Hendricks Gin");
 
+console.log('shoppingList ', shoppingList);
 
 
 /*The array.reverse() reverses the order of the element of an array in place - the first becomes the last and the last becomes the first*/
@@ -31,6 +35,9 @@ var shoppingList = ["cool ranch doritos", "kings hawaiian sweet bread", "peanut 
 
 var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
 
+yoda.reverse();
+
+console.log('yodo ', yoda);
 
 
 /*The array.shift() removes the first element from an array and returns that element*/
@@ -39,6 +46,9 @@ var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
 
 var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
 
+waitList.shift("Chance the Rapper");
+
+console.log('waitList ', waitList);
 
 
 /*The array.unshift() adds one or more elements to the front of an array and returns the new length of the array*/
