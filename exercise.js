@@ -66,7 +66,7 @@ array.splice(index, how many items to be removed)*/
 
 var testMenu = ["McPizza Burger", "McFly Burger", "McLinguine", "McChar-Siu Bau", "McChop-Chae", "McPancit"];
 
-testMenu.splice(1, 2);
+testMenu.splice(2, 2);
 console.log('testMenu ', testMenu);
 
 /*=============================================================*/
@@ -80,6 +80,11 @@ console.log('testMenu ', testMenu);
 var westSide = ["Dre", "2Pac", "Snoop"];
 var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 
+var wholeSide = westSide.concat(eastSide);
+
+
+console.log(wholeSide);
+
 
 
 /*The array.join() joins all the elements of an array into a string.*/
@@ -88,6 +93,9 @@ var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 
 var shoe = ["just", "do", "it"];
 
+var expensiveShoe = shoe.join();
+
+console.log(expensiveShoe);
 
 
 /*The array.slice() extracts a section of an array and returns a new array.
@@ -98,6 +106,9 @@ array.slice(index start, index end)*/
 
 var fbFriends = ["Khalid", "Yeezy", "Kimmy K", "Lamar Odom", "Lebron", "Warren Buffet"];
 
+var unFriend = fbFriends.slice(1,4);
+
+console.log(unFriend);
 
 
 
